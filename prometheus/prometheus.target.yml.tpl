@@ -8,3 +8,4 @@
       password: __SUPABASE_SERVICE_ROLE_KEY__
     static_configs:
       - targets: ["__SUPABASE_PROJECT_REF__.supabase.co"]
+
