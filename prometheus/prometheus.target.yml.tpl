@@ -8,9 +8,3 @@
       password: __SUPABASE_SERVICE_ROLE_KEY__
     static_configs:
       - targets: ["__SUPABASE_PROJECT_REF__.supabase.co"]
-  - job_name: 'otel-collector'
-    metrics_path: '/metrics'
-    static_configs:
-      - targets: ['welysn-otel-collector:9464']
-
-  
